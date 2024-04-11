@@ -1,0 +1,39 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+    background-color: #d2d2d2;
+}
+h1 {
+    color: white;
+    padding: 2em 4em 2em 4em;
+    border-radius: 1em;
+    background-color: rgba(137, 139, 5, 0.473);
+}
+div.inputBox {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+div.inputBox input {
+    width: 100%;
+    height: 2em;
+    margin-bottom: 1em;
+}
+div.inputBox button {
+    color:white;
+    width: 100%;
+    height: 2em;
+    border: 0px;
+    background-color: rgb(69, 163, 191);
+}
